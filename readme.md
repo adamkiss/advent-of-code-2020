@@ -131,3 +131,16 @@ Instead of any smart comparison, I sort the IDs, and filter the elements with ar
 ## Part 2
 We switch the code around so we preview the result of `nop`/`jmp` instructions first, and if they lead to already visited place, we switch them before we execute them. (According to input, there is precisely one where this might happen)
 </details>
+
+<details>
+<summary><b>09</b>: Encoding Error</summary>
+
+## Part 1
+- parse input
+- loop over the range of `(preamble..length)`
+  - get preamble and number to check
+  - filter preamble to unmatched numbers
+    - in the case of match, there should be `preamble.length - 2` unmatched numbers
+  - if all numbers are unmatched, return the number, else go to the next iteration
+- output result
+</details>
