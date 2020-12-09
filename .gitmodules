@@ -1,0 +1,3 @@
+[submodule "inputs"]
+	path = inputs
+	url = git@github.com:adamkiss/advent-of-code-2020-inputs
