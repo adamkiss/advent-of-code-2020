@@ -1,10 +1,11 @@
-const input = require('./inputs/09-0-input')
-const sliceSize = 25
+// const input = require('./inputs/09-0-input')
+// const sliceSize = 25
 
-// const input = require('./09-0-test')
-// const sliceSize = 5
+const input = require('./09-0-test')
+const sliceSize = 5
 
 let found = false
+let foundIndex = 0
 
 for (let checkIndex = sliceSize; checkIndex < input.length; checkIndex++) {
   const checking = input[checkIndex]
@@ -16,8 +17,13 @@ for (let checkIndex = sliceSize; checkIndex < input.length; checkIndex++) {
 
   if (checkNotMatched.length === checkInput.length) {
     found = checking
+    foundIndex = checkIndex
     break;
   }
 }
 
-console.log(found === false ? '🤷‍♂️' : found)
+if (found === false) {
+  return console.log('🤷‍♂️');
+}
+
+console.log(`Unmatched: ${found}, index #${foundIndex}`)
