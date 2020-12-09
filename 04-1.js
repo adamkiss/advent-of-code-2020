@@ -1,4 +1,4 @@
-const input = require('./04-0-input')
+const input = require('./inputs/04-0-input')
 const required = Object.keys({
   byr: 'Birth Year',
   iyr: 'Issue Year',

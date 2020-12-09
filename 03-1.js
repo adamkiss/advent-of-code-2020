@@ -1,4 +1,4 @@
-const map = require('./03-0-input').split("\n")
+const map = require('./inputs/03-0-input').split("\n")
 const length = map[0].length
 let pos = -3 // first call to nextPos() = 0
 

@@ -1,4 +1,4 @@
-const pwdList = require('./02-0-input')
+const pwdList = require('./inputs/02-0-input')
 const pwdRegexp = /(\d+)-(\d+) (.): (.*)/
 console.log(
   pwdList.split("\n").filter(pwd => {

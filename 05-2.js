@@ -1,4 +1,4 @@
-const input = require('./05-0-input')
+const input = require('./inputs/05-0-input')
 const ids = input.map(pass => {
   const row = pass.slice(0,7).replace(/F/g, '0').replace(/B/g, '1')
   const col = pass.slice(7  ).replace(/L/g, '0').replace(/R/g, '1')

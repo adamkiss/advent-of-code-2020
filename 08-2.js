@@ -1,4 +1,4 @@
-const instructions = require('./08-0-input').map(line => {
+const instructions = require('./inputs/08-0-input').map(line => {
   const [,instruction,symbol,value] = /(.*?) ([+-])(\d+)/.exec(line)
   return {instruction, positive: symbol==='+', value: parseInt(value, 10)}
 })

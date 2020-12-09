@@ -1,4 +1,4 @@
-const rules = require('./07-0-input')
+const rules = require('./inputs/07-0-input')
 const parents = {}
 
 rules.forEach(rule => {

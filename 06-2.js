@@ -1,4 +1,4 @@
-const groups = require('./06-0-input')
+const groups = require('./inputs/06-0-input')
 const all = 'abcdefghijklmnopqrstuvwxyz'.split('')
 const yes = groups
   .map(group => {
