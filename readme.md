@@ -143,4 +143,14 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
     - in the case of match, there should be `preamble.length - 2` unmatched numbers
   - if all numbers are unmatched, return the number, else go to the next iteration
 - output result
+
+## Part 1
+- `input2` is slice of input, the range `(0..foundPart1)`
+- loop over the input2
+  - starting from loop2 index
+    - add next number to sum
+    - if `sum` matches the `found` number, you've got your weakness
+    - if the `sum` is larger than the `found` number, finish this loop
+  - ~~if the `range2` is found, return `range2[0] + range2[range2.length-1]`~~
+  - if the `range2` is found, sort it and return the sum of the first and last element
 </details>
