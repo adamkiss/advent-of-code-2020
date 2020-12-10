@@ -1,4 +1,5 @@
-const adapters = require(true ? './inputs/10-input' : './10-0-test')
+const data = {t1: './10-0-test2', t2: './10-0-test2', r: './inputs/10-input'}
+const adapters = require(data.t1)
   .split("\n").map(i => parseInt(i, 10)).sort((a,b) => a - b)
 const outlet = 0
 const device = adapters[adapters.length-1] + 3
