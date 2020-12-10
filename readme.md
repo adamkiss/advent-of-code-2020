@@ -154,3 +154,15 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
   - ~~if the `range2` is found, return `range2[0] + range2[range2.length-1]`~~
   - if the `range2` is found, sort it and return the sum of the first and last element
 </details>
+
+<details>
+<summary><b>10</b>: Adapter Array</summary>
+
+## Part 1
+- parse input
+- sort the input
+- reduce it down to array of diff count to previous element
+- return the `diff[1] * diff[3]` count
+
+</details>
+
