@@ -164,5 +164,19 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
 - reduce it down to array of diff count to previous element
 - return the `diff[1] * diff[3]` count
 
+## Part 2
+- parse input
+- sort input
+- reduce the array down to:
+  - diff to previous element
+    - this is always `1` or `3` in my inputs
+- reduce the diff array to array of number of consecutive `1`
+- each of these consecutive groups for `>2` generate `X` number of options:
+  2. 2
+  3. 4
+  4. 7
+  5. ?? (I don't have a cons. group of 5, so I skipped finding the math behind it)
+- times all together, that's the result
+
 </details>
 
