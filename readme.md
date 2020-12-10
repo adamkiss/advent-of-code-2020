@@ -144,7 +144,7 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
   - if all numbers are unmatched, return the number, else go to the next iteration
 - output result
 
-## Part 1
+## Part 2
 - `input2` is slice of input, the range `(0..foundPart1)`
 - loop over the input2
   - starting from loop2 index
