@@ -1,4 +1,4 @@
-const map = require(false ? './inputs/11-input' : './11-0-test')
+const map = require(true ? './inputs/11-input' : './11-0-test')
   .split("\n").map(l => l.split(""))
 
 const maxX = map[0].length - 1
