@@ -24,7 +24,6 @@ const getVisible = (arr, x, y) => {
   }).filter(seat => seat)
 }
 const countVisibleOccupied = (a, x, y) => getVisible(a,x,y).filter(seat => seat === '#').length
-
 const mapAfterPass = map => {
   const newMap = clone(map)
   for (let mx = 0; mx <= maxX; mx++) {
