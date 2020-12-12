@@ -30,7 +30,6 @@ instructions.map(({c, a}) => {
     default:
       break;
   }
-  console.log(c, a, position, waypoint)
 })
 
 console.log(position, Math.abs(position.x) + Math.abs(position.y))
