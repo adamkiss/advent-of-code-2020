@@ -180,3 +180,19 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
 
 </details>
 
+<details>
+<summary><b>14</b>: Docking Data</summary>
+
+## Part 1
+- parse input
+- for each line
+  - if mask, update mask for all next lines
+  - if mem write, apply mask and write
+- sum (reduce)
+
+
+## Part 2
+- tbd
+
+</details>
+
