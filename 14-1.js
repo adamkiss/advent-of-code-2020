@@ -1,4 +1,4 @@
-const instructions = require(true ? './inputs/14-input' : './14-0-test').split("\n")
+const instructions = require(true ? './inputs/14-input' : './14-0-input').split("\n")
   .map(i => {
     const [instr, value] = i.split(" = ")
     if (instr === 'mask')
