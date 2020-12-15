@@ -200,3 +200,20 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
 
 </details>
 
+<details>
+<summary><b>15</b>: Rambunctious Recitation</summary>
+
+## Part 1
+- parse input, use as a starting point
+- loop:
+  - get last number
+  - get last index of said number _discounting_ "real" last index (which is last turn)
+  - if last index is -1, push 0, otherwise (turn (1 based) - index (0 based)) + base diff
+- get index `2019` (turn 2020)
+
+Mostly an excercise in keeping 0 based and 1 based indexing straight
+## Part 2
+- tbd
+
+</details>
+
