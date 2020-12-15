@@ -213,7 +213,9 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
 
 Mostly an excercise in keeping 0 based and 1 based indexing straight
 ## Part 2
-- tbd
+- ~~the very same, just increase the stop count?~~
+- the very same, but keep "last index" map so it's faster
+  - to disregard last number said, we update the index _after_ comparison
 
 </details>
 
