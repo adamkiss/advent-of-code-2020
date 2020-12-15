@@ -192,7 +192,11 @@ We switch the code around so we preview the result of `nop`/`jmp` instructions f
 
 
 ## Part 2
-- tbd
+- parse input
+- for each line
+  - if mask, update mask for all next lines
+  - if mem write, apply mask, generate all memory places to write and write
+- sum (reduce)
 
 </details>
 
