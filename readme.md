@@ -219,3 +219,17 @@ Mostly an excercise in keeping 0 based and 1 based indexing straight
 
 </details>
 
+<details>
+<summary><b>16</b>: Rambunctious Recitation</summary>
+
+## Part 1
+- parse input
+- filter tickets:
+  - filter all invalid fields (exactly one or more, doesn't matter)
+- flat the tickets down to all the fields
+- sum the fields
+## Part 2
+- tbd
+
+</details>
+
