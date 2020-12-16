@@ -229,7 +229,14 @@ Mostly an excercise in keeping 0 based and 1 based indexing straight
 - flat the tickets down to all the fields
 - sum the fields
 ## Part 2
-- tbd
+- parse input
+- filter nearby tickets down to valid ones
+- map valid tickets fields to arrays of "this might be this field based on range"
+  - filter it down to "every field of every ticket at position _i_" has this field
+- now we have array `[index => field]`
+- map those values to our ticket
+- filter for `^departure`
+- reduce those down to `[each1 ^ each2 ... ^ eachN]`
 
 </details>
 
