@@ -25,10 +25,7 @@ const fields = possibleFields.reduce((done, current) => [...done, {
   field: current.possible.filter(pf => done.every(d => pf !== d.field))[0]
 }], [])
 
-console.log(fields)
-
 const your = ticket.split(',').map(i => parseInt(i, 10))
-console.log(your, fields.map(f => `[${f.i}] ${f.field}: ${your[f.i]}`))
 console.log(
   fields
     .map(({field, i}) => /^departure/.test(field) ? your[i] : 1)
