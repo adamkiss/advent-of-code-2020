@@ -262,4 +262,7 @@ This day we start with day 11 (?), and modify it for 3 dimensions.
   - calculate simple `fx()` on result
 - reduce into sum
 
+## Part 2
+- same as part 1, just also process addition first
+
 </details>
