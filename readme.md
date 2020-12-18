@@ -249,3 +249,17 @@ This day we start with day 11 (?), and modify it for 3 dimensions.
 - 
 
 </details>
+
+<details>
+<summary><b>18</b>: Operation Order</summary>
+
+This day we start with day 11 (?), and modify it for 3 dimensions.
+## Part 1
+- parse input into array of calculation
+- calculate each
+  - tokenize input
+  - replace each inner `()` with `fx(result)` until none exist
+  - calculate simple `fx()` on result
+- reduce into sum
+
+</details>
