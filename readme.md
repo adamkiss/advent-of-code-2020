@@ -241,9 +241,9 @@ Mostly an excercise in keeping 0 based and 1 based indexing straight
 </details>
 
 <details>
-<summary><b>16</b>: Conway Cubes</summary>
+<summary><b>17</b>: Conway Cubes [WIP]</summary>
 
-This day we start with day 12 (?), and modify it for 3 dimensions.
+This day we start with day 11 (?), and modify it for 3 dimensions.
 ## Part 1
 - parse input
 - 
